@@ -1,0 +1,21 @@
+#content {
+  text-align: center;
+  color: var(--color-primary-10);
+}
+
+#cta {
+  margin-top: 2rem;
+}
+
+#cta a {
+  text-decoration: none;
+  background-color: var(--color-secondary-100);
+  color: var(--color-primary-800);
+  padding: 0.5rem 2rem;
+  border-radius: 4px;
+  font-size: 1.5rem;
+}
+
+#cta a:hover {
+  background-color: var(--color-secondary-200);
+}

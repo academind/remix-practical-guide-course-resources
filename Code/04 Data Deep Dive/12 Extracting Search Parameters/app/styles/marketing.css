@@ -1,0 +1,137 @@
+.marketing-section {
+  margin: 6rem auto;
+}
+
+.marketing-section header {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  color: var(--color-primary-50);
+}
+
+.marketing-section:last-of-type {
+  text-align: right;
+}
+
+.marketing-section:last-of-type header {
+  justify-content: flex-end;
+}
+
+.marketing-section svg {
+  font-size: 1.25rem;
+}
+
+.marketing-section h2 {
+  margin: 0;
+}
+
+.marketing-content {
+  display: flex;
+  gap: 2rem;
+  margin: 3rem 0;
+}
+
+.marketing-image {
+  width: 50%;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  padding: 0.5rem;
+  background-color: var(--color-primary-100);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: rotateZ(-5deg);
+}
+
+.marketing-image:last-child {
+  transform: rotateZ(5deg);
+}
+
+.marketing-image img {
+  width: 100%;
+  border-radius: 4px;
+}
+
+.marketing-explanation {
+  width: 50%;
+}
+
+#pricing {
+  text-align: center;
+}
+
+#pricing-plans {
+  width: 36rem;
+  margin: 3rem auto;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.plan {
+  background-color: white;
+  border-radius: 6px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  color: var(--color-gray-500);
+  width: 50%;
+}
+
+.plan header {
+  padding: 1rem;
+}
+
+.plan .icon {
+  width: 4rem;
+  height: 4rem;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border: 2px solid white;
+  border-radius: 50%;
+  margin: 1rem auto;
+}
+
+.plan:first-of-type header {
+  background-color: var(--color-primary-200);
+}
+
+.plan:last-of-type header {
+  background-color: var(--color-primary-400);
+}
+
+.plan h2,
+.plan p {
+  margin: 0;
+  color: var(--color-gray-10);
+}
+
+.plan header p {
+  font-size: 0.85rem;
+  margin-top: 0.5rem;
+}
+
+.plan li {
+  margin: 1rem 0;
+}
+
+.plan-content {
+  padding: 1rem;
+}
+
+.plan .actions {
+  margin: 3rem 0 1.5rem 0;
+}
+
+.plan a {
+  background-color: var(--color-secondary-500);
+  color: var(--color-gray-10);
+  padding: 0.75rem 2rem;
+  border-radius: 30px;
+}
+
+.plan a:hover {
+  background-color: var(--color-secondary-600);
+}

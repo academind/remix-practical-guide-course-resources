@@ -32,7 +32,7 @@ function ExpenseListItem({ id, title, amount }) {
       <menu className="expense-actions">
         <button onClick={deleteExpenseItemHandler}>Delete</button>
         {/* <Form method='delete' action={`/expenses/${id}`}>
-          <button formMethod='delete'>Delete</button>
+          <button>Delete</button>
         </Form> */}
         <Link to={id}>Edit</Link>
       </menu>

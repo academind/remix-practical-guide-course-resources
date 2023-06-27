@@ -1,4 +1,3 @@
-
 import {
   Form,
   Link,
@@ -107,10 +106,7 @@ function ExpenseForm() {
         </ul>
       )}
       <div className="form-actions">
-        <button
-          disabled={isSubmitting}
-          formMethod={expenseData ? 'patch' : 'post'}
-        >
+        <button disabled={isSubmitting}>
           {isSubmitting ? 'Saving...' : 'Save Expense'}
         </button>
         <Link to="..">Cancel</Link>
